@@ -14,6 +14,7 @@ import { FaqComponent } from './faq/faq.component';
 import { NewsComponent } from './news/news.component';
 import { DoDontComponent } from './do-dont/do-dont.component';
 import { ErrorComponent } from './error/error.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { ErrorComponent } from './error/error.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],

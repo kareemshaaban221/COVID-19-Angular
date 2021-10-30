@@ -44,13 +44,13 @@
     </div>
 
     <div class="text-center">
-      <button class="btn btn-primary rounded-pill pl-3 pr-3 p-2 bold wow fadeInRight">
+      <button class="btn btn-primary rounded-pill pl-3 pr-3 p-2 bold wow fadeInRight" routerLink="/prevention" (click)="up()">
         Check how you wash hand
         <i class="fa fa-arrow-right ml-3" aria-hidden="true"></i>
       </button>
 
       <div class="mt-4 pb-5 wow fadeInLeft">
-        <a href="" class="p-3 selected bold">
+        <a href="" class="p-3 selected bold" routerLink="/about">
           About COVID-19
           <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </a>
@@ -82,9 +82,9 @@
       </div>
     </div>
 
-    <div class="text-center p-5">
+    <div class="text-center p-5" id="howWash">
       <h2 class="bold headerColor p-4 wow bounceInLeft">Take steps to protect others</h2>
-      <a href="" class="p-3 selected bold wow flash">
+      <a routerLink="/faq" class="p-3 selected bold wow flash">
         Why do I need wash hand
         <i class="fa fa-arrow-right ml-3" aria-hidden="true"></i>
       </a>

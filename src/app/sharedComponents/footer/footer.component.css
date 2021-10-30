@@ -1,0 +1,7 @@
+.footerIcons a:hover{
+    color: #2a81ea !important;
+}
+
+a{
+    cursor: pointer !important;
+}

@@ -12,4 +12,12 @@ export class FooterComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  open(site: string){
+    window.open(`https://www.${site}.com`);
+  }
+
+  up(){
+    scrollTo(0, 0);
+  }
+
 }

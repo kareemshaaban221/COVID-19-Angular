@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-prevention',
   templateUrl: './prevention.component.html',
   styleUrls: ['./prevention.component.css']
 })
-export class PreventionComponent implements OnInit {
+export class PreventionComponent {
 
   constructor() { }
 
-  ngOnInit(): void {
+  up(){
+    let off = document.getElementById('howWash');
+    off?.scrollIntoView();
   }
 
 }
